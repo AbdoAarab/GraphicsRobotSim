@@ -2,6 +2,24 @@
 
 This project is a simulation of a 2-wheeled robot moving in a 2D environment. The robot can be controlled in three different modes: automatic, manual, and creative. In the automatic mode, the robot will navigate from a starting point to a goal, avoiding obstacles along the way. In the manual mode, the robot can be controlled using keyboard input. In the creative mode, the user can add or remove obstacles to the environment. Finally, in the playback mode, the user can replay the previous simulation.
 
+## Table of Contents
+- [Features](#features)
+- [Modes](#modes)
+  - [Automatic Mode](#automatic-mode)
+  - [Manual Mode](#manual-mode)
+  - [Creative Mode](#creative-mode)
+  - [Playback Mode](#playback-mode)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [How to Run](#how-to-run)
+- [Future Work](#future-work)
+- [Conclusion](#conclusion)
+- [Contributions](#contributions)
+- [Acknowledgments](#acknowledgments)
+
 ## Features
 
 - Realistic movement and rotation based on the angular velocity of the wheels
@@ -63,10 +81,6 @@ In the playback mode, the user can replay the previous simulation.
 - C++
 - Graphics.h library
 
-## Requirements
-
-- Graphics.h library
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -75,8 +89,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need the following software installed on your computer to run this project:
 
-- A C++ compiler
-- The Graphics.h library
+- A C++ compiler (e.g. g++)
+- The Graphics.h library (Follow this [link](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the library
 
 ### Installing
 
