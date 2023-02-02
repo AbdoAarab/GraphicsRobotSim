@@ -36,7 +36,7 @@ In the playback mode, the user can replay the previous simulation.
 
 ### Mode Select / Home Screen
 
-![Mode Select / Home Screen](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/ModeSelect.png)
+![Mode Select / Home Screen](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Mode_Select.png)
 
 ### Obstacles & Goals Creation
 
@@ -82,15 +82,15 @@ You will need the following software installed on your computer to run this proj
 
 Clone the repository to your local machine:
 
-    ```git clone https://github.com/AbdoAarab/GraphicsRobotSim.git```
+    git clone https://github.com/AbdoAarab/GraphicsRobotSim.git
 
 Navigate to the project directory:
 
-    ```cd GraphicsRobotSim/Home/src```
+    cd GraphicsRobotSim/Home/src
 
 Compile the code using your preferred C++ compiler:
 
-    ```g++ main.cpp -o simulation -lgraph```
+    g++ main.cpp -o simulation -lgraph
 
 ## How to Run
 
