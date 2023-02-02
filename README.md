@@ -90,9 +90,10 @@ These instructions will get you a copy of the project up and running on your loc
 You will need the following software installed on your computer to run this project:
 
 - A C++ compiler (e.g. g++)
-- The Graphics.h library (Follow this [link](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the library
+- The Graphics.h library 
 
 ### Installing
+Follow this [tutorial](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the Graphics.h library on your computer.
 
 Clone the repository to your local machine:
 
