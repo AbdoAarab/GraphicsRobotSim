@@ -1,6 +1,6 @@
 # GraphicsRobotSim
 
-This project is a 2D top-down simulation of a 2-wheeled robot that moves and rotates based on the angular velocity of its wheels. The robot can be controlled through keyboard input in manual mode, navigates from a starting point to a goal while avoiding obstacles in automatic mode, or be freely positioned and moved in creative mode.
+This project is a simulation of a 2-wheeled robot moving in a 2D environment. The robot can be controlled in three different modes: automatic, manual, and creative. In the automatic mode, the robot will navigate from a starting point to a goal, avoiding obstacles along the way. In the manual mode, the robot can be controlled using keyboard input. In the creative mode, the user can add or remove obstacles to the environment. Finally, in the playback mode, the user can replay the previous simulation.
 
 ## Features
 
@@ -12,25 +12,51 @@ This project is a 2D top-down simulation of a 2-wheeled robot that moves and rot
 - Obstacles (Right Mouse Button) & goals (Left Mouse Button) can be added in the form of circles
 - Free positioning and movement of the robot in creative mode
 
-## Manual Mode
+## Modes
 
-In manual mode, the robot can be controlled through keyboard input. Use the arrow keys to move the robot in the desired direction. The speed of the robot can be adjusted by changing the `VELOCITY` constant in the code.
+There are four different modes available in this simulation: automatic, manual, creative, and playback.
 
-## Automatic Mode
+### Automatic Mode
 
-In automatic mode, the robot will navigate from the starting point to the goal while avoiding obstacles. The starting point and goal can be set by clicking on the desired locations in the simulation window. Obstacles can be added by clicking and dragging to create circles. The robot uses a simulated sensor in front of it to detect obstacles and navigate around them.
+In the automatic mode, the robot will navigate from the starting point to the goal while avoiding obstacles along the way. The robot uses a simulated sensor in front of it to detect obstacles and navigate around them.
 
-## Creative Mode
+### Manual Mode
 
-In creative mode, the robot can be freely positioned and moved in the simulation window. This mode can be used for testing and experimentation. The position and orientation of the robot can be changed by clicking and dragging.
+In the manual mode, the user can control the robot using keyboard input. The user can apply a velocity to the robot's wheels, causing it to move forward or backward.
+
+### Creative Mode
+
+In the creative mode, the user can add or remove obstacles to the environment. The user can also modify the starting point and the goal.
+
+### Playback Mode
+
+In the playback mode, the user can replay the previous simulation.
 
 ## Screenshots
 
-Insert screenshots here to give an idea of what the simulation looks like.
+### Mode Select / Home Screen
 
-## GIFs
+![Mode Select / Home Screen](https://github.com/AbdoAarab/GraphicsRobotSim/Media/ModeSelect.png)
 
-Insert GIFs here to show the different modes and how the robot moves and navigates.
+### Obstacles & Goals Creation
+
+![Obstacles & Goals Creation](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Obstacles_Goals_Creation.png)
+
+### Number of Random Obstacles Selection
+
+![Number of Random Obstacles Selection](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Number_of_Obstacles.png)
+
+### Number of Random Goals Selection
+
+![Number of Random Goals Selection](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Number_of_Goals.png)
+
+### Automatic Mode (All Debug)
+
+![Automatic Mode (All Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Automatic_Mode_AllDebug.png)
+
+### Automatic Mode (No Debug)
+
+![Automatic Mode (No Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Automatic_Mode_NoDebug.png)
 
 ## Built With
 
@@ -55,11 +81,11 @@ You will need the following software installed on your computer to run this proj
 ### Installing
 
 Clone the repository to your local machine:
-    
+
     ```git clone https://github.com/AbdoAarab/GraphicsRobotSim.git```
 
 Navigate to the project directory:
-    
+
     ```cd GraphicsRobotSim/Home/src```
 
 Compile the code using your preferred C++ compiler:
@@ -77,13 +103,13 @@ Compile and run the code on a C++ compiler to start the simulation. Use the keyb
 - Add a way to change the size and shape of the robot
 - Add more customization options for the simulation environment
 
+## Conclusion
+
+This simulation provides a simple and intuitive way to understand the movements of a 2-wheeled robot. By controlling the robot in different modes, the user can gain a deeper understanding of the robot's behavior and the challenges it faces in navigating a 2D environment.
+
 ## Contributions
 
 Feel free to contribute to this project by submitting pull requests or by reporting bugs.
-
-## Author
-
-Abdo Aarab
 
 ## Acknowledgments
 
