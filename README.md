@@ -36,27 +36,27 @@ In the playback mode, the user can replay the previous simulation.
 
 ### Mode Select / Home Screen
 
-![Mode Select / Home Screen](https://github.com/AbdoAarab/GraphicsRobotSim/Media/ModeSelect.png)
+![Mode Select / Home Screen](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/ModeSelect.png)
 
 ### Obstacles & Goals Creation
 
-![Obstacles & Goals Creation](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Obstacles_Goals_Creation.png)
+![Obstacles & Goals Creation](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Obstacles_Goals_Creation.png)
 
 ### Number of Random Obstacles Selection
 
-![Number of Random Obstacles Selection](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Number_of_Obstacles.png)
+![Number of Random Obstacles Selection](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Number_of_Obstacles.png)
 
 ### Number of Random Goals Selection
 
-![Number of Random Goals Selection](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Number_of_Goals.png)
+![Number of Random Goals Selection](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Number_of_Goals.png)
 
 ### Automatic Mode (All Debug)
 
-![Automatic Mode (All Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Automatic_Mode_AllDebug.png)
+![Automatic Mode (All Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Automatic_Mode_AllDebug.png)
 
 ### Automatic Mode (No Debug)
 
-![Automatic Mode (No Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/Media/Automatic_Mode_NoDebug.png)
+![Automatic Mode (No Debug)](https://github.com/AbdoAarab/GraphicsRobotSim/blob/Media/Automatic_Mode_NoDebug.png)
 
 ## Built With
 
