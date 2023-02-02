@@ -93,7 +93,6 @@ You will need the following software installed on your computer to run this proj
 - The Graphics.h library 
 
 ### Installing
-Follow this [tutorial](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the Graphics.h library on your computer.
 
 Clone the repository to your local machine:
 
@@ -106,6 +105,14 @@ Navigate to the project directory:
 Compile the code using your preferred C++ compiler:
 
     g++ main.cpp -o simulation -lgraph
+
+Or if you're using Visual Studio:
+
+Follow this [tutorial](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the Graphics.h library on your computer and set up the project in Visual Studio.
+
+Then build the main.cpp file by pressing Ctrl+Shift+B to build.
+
+The executable file will be generated in the build folder.
 
 ## How to Run
 
