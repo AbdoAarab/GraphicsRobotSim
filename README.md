@@ -89,10 +89,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need the following software installed on your computer to run this project:
 
-- A C++ compiler (e.g. g++)
+- A C++ compiler (e.g. g++) 
 - The Graphics.h library 
 
 ### Installing
+If you don't have a C++ compiler installed on your computer, you can download one from [here](https://sourceforge.net/projects/mingw-w64/).
+
+If you don't have the Graphics.h library installed on your computer, you can download it from [here](https://www.programmingsimplified.com/c/graphics.h).
+
+Or If you're using Visual Studio, follow this [tutorial](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the Graphics.h library on your computer and set up the project with Visual Studio.
 
 Clone the repository to your local machine:
 
@@ -105,14 +110,6 @@ Navigate to the project directory:
 Compile the code using your preferred C++ compiler:
 
     g++ main.cpp -o simulation -lgraph
-
-Or if you're using Visual Studio:
-
-Follow this [tutorial](https://github.com/ullaskunder3/Solution-to-graphics.h) to install the Graphics.h library on your computer and set up the project in Visual Studio.
-
-Then build the main.cpp file by pressing Ctrl+Shift+B to build.
-
-The executable file will be generated in the build folder.
 
 ## How to Run
 
